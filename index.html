@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forensics</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Costom CSS links--> 
+     <!--Boxicons-->
+     <link rel="stylesheet"
+     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+     <!--Remixicon-->
+     <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <!--Google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Goblin+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo" >ForenSys</a>
+        <ul class="navlist">
+            <li><a href="" onclick="scrollToTop()" >Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="#file-upload-section">File Upload</a></li>
+            <li><a href="">Exports</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <div class = "bx bx-menu" id="menu-icon"></div>
+    </header>
+    <div class="container">
+    <section class="hero" id="home-section" >
+        <div class="hero-text">
+            <h5>Investigate faster and smarter</h5>
+            <h4>Streamline Digital Forensic Investigations</h4>
+            <h1>ForenSys</h1>
+            <p>CyberTrace streamlines digital forensic investigations.</p>
+            <a href="#" >Compare</a>
+            <a href="#" onclick="scrollToFileUploadSection()" class="ctaa"><i id="ic" class="ri-file-upload-fill"></i>Upload File</a>
+
+        </div>
+        <div class="hero-img">
+            <img src="img/main.png">
+
+        </div>
+    </section>
+    <section class="drag" id="file-upload-section" >
+        <div class="drag-area">
+            <div class="icon"><i class="ri-file-upload-fill"></i></div>
+            <h1>Drag & Drop to Upload File</h1>
+            <span>OR</span>
+            <button id="browse-btn">Browse File</button>
+            <input type="file" id="file-input" hidden>
+
+
+        </div>
+    </section>
+</div>
+    <!--Costom Js link-->
+    <script src="script.js"></script>
+
+
+</body>
+</html>
